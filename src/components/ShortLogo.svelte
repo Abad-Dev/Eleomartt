@@ -1,5 +1,5 @@
 <script>
-    import ShortLogo from "../assets/short-logo.png";
+    import ShortLogo from "../assets/logo-navbar.png";
 </script>
 
 

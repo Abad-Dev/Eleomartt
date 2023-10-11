@@ -20,8 +20,13 @@
 </div>
 
 <style>
+    #about{
+        padding-top: 88px;
+        margin-top: -88px;
+    }
     p{
         font-size: 18px;
+        padding: 0 15px;
     }
     img{
         position: absolute;
@@ -33,6 +38,7 @@
     }
     .img-container{
         position: relative;
+        max-width: 100vw;
     }
     .text-overlay{
         padding-top: 50px;

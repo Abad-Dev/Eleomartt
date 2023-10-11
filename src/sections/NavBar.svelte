@@ -23,10 +23,16 @@
                 <a class="nav-link" aria-current="page" href="#about">Nosotros</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#works">Trabajos</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#services">Servicios</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#clients">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">Contáctenos</a>
             </li>
         </div>
     </div>
