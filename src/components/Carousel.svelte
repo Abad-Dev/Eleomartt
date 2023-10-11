@@ -52,7 +52,7 @@
     
     </div>
     
-    <div class="row">
+    <!--<div class="row">
         <div class="col-6 text-end">
             <button class="btn btn-primary" on:click={prev}>Prev</button>
         </div>
@@ -61,7 +61,7 @@
                 Next
             </button>
         </div>
-    </div>
+    </div>-->
 </div>
 
 <style>

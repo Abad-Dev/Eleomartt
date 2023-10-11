@@ -56,6 +56,9 @@
     }
 
     @media screen and (max-width: 768px) {
+        .hero{
+            min-height: 580px;
+        }
         .main-title{
             font-size: 50px; 
             font-weight: 700;

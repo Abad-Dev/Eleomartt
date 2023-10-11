@@ -1,6 +1,6 @@
 <script>
-    import Logo from "./Logo.svelte";
-    import ShortLogo from "./ShortLogo.svelte";
+    import Logo from "../components/Logo.svelte";
+    import ShortLogo from "../components/ShortLogo.svelte";
 </script>
 
 <nav class="navbar navbar-expand-lg bg-light">
