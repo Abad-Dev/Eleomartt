@@ -13,7 +13,6 @@
         </video>
         <div class="col-12 text-overlay">
             <h1 class="main-title">Producción Audiovisual <br> de <span class="red">Alta</span> Calidad</h1>
-            <p>Confianza, calidad, buen precio y eficiencia en una misma empresa.</p>
         </div>
     </div>
 </div>

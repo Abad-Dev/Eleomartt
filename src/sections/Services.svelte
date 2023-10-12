@@ -13,6 +13,8 @@
     import Animacion from "../assets/2d.png";
 
     import Locucion from "../assets/locucion.png";
+
+    import Red from "../assets/red.png"
 </script>
 
 <div class="container" id="services">
@@ -23,7 +25,9 @@
 
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={Produccion} />
+                <a href="https://www.youtube.com/watch?v=HNJTEw1-NPs&ab_channel=ELEOMARTT" target="_blank">
+                    <img src={Produccion} />
+                </a>
             </div>
             <div class="col d-flex flex-column justify-content-center">
                 <h1 class="blue word-1">Producción</h1>
@@ -54,7 +58,9 @@
                 </div>
             </div> 
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={Streaming} />
+                <a href="https://www.youtube.com/watch?v=8yT7UxdPRD8" target="_blank">
+                    <img src={Streaming} />
+                </a>
             </div>       
         </div>
 
@@ -63,7 +69,9 @@
         
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={RedesSociales} />
+                <a href="https://www.youtube.com/watch?v=pTeseN82px4" target="_blank">
+                    <img src={RedesSociales} />
+                </a>
             </div>
             <div class="col d-flex flex-column justify-content-center">
                 <h1 class="blue word-1">Contenido Para</h1>
@@ -94,7 +102,9 @@
                 </div>
             </div>    
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={Foto} />
+                <a href="https://www.youtube.com/watch?v=Ekj6rhfSXZk" target="_blank" >
+                    <img src={Foto} />
+                </a>
             </div>    
         </div>
 
@@ -103,11 +113,13 @@
         
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={Musica} />
+                <a href="https://www.youtube.com/watch?v=0TBr7hSahFs" target="_blank">
+                    <img src={Musica} />
+                </a>
             </div>
             <div class="col d-flex flex-column justify-content-center">
                 <h1 class="blue word-1">Servicio de</h1>
-                <h1 class="red word-1">Musicalización</h1>
+                <h1 class="red word-2">Musicalización</h1>
                 <div id="produc-container" >
                     <p class="text-center text-sm-start">
                         Potenciamos tus proyectos audiovisuales con la magia de la música. Nuestra meticulosa selección de pistas, personalización creativa y experiencia en calidad de sonido aseguran que tu contenido brille. Tu éxito es nuestra prioridad, y trabajamos incansablemente para llevar tus producciones al siguiente nivel a través de la musicalización.
@@ -133,7 +145,9 @@
                 </div>
             </div>    
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
-                <img src={Animacion} />
+                <a href="https://www.youtube.com/watch?v=QAYncQBWUEs" target="_blank">
+                    <img src={Animacion} />
+                </a>
             </div>    
         </div>
 

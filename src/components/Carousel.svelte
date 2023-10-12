@@ -1,4 +1,11 @@
 <script>
+    import Video1 from "../assets/video1.mp4";
+    import Video2 from "../assets/video2.mp4";
+    import Video3 from "../assets/video3.mp4";
+    import Video4 from "../assets/video4.mp4";
+    import Video5 from "../assets/video5.mp4";
+    import Video6 from "../assets/video6.mp4";
+
     let animForward  = ['mv0to5', 'mv1to0', 'mv2to1', 'mv3to2', 'mv4to3', 'mv5to4'];
     let animBackward = ['mv0to1', 'mv1to2', 'mv2to3', 'mv3to4', 'mv4to5', 'mv5to0'];
 
@@ -73,29 +80,68 @@
 <div class="container-fluid">
     <div class="carousel-container">
         <div id="carousel">
-            <img src="https://lucidar.me/fr/web-dev/files/img0.svg" id="carousel-image-0" class={"carousel-image " + classList[0]}>
-            <img src="https://lucidar.me/fr/web-dev/files/img1.svg" id="carousel-image-1" class={"carousel-image " + classList[1]}>
-            <img src="https://lucidar.me/fr/web-dev/files/img2.svg" id="carousel-image-2" class={"carousel-image " + classList[2]}>
-            <img src="https://lucidar.me/fr/web-dev/files/img3.svg" id="carousel-image-3" class={"carousel-image " + classList[3]}>
-            <img src="https://lucidar.me/fr/web-dev/files/img4.svg" id="carousel-image-4" class={"carousel-image " + classList[4]}>
-            <img src="https://lucidar.me/fr/web-dev/files/img5.svg" id="carousel-image-5" class={"carousel-image " + classList[5]}>
+            <video muted autoplay loop id="carousel-image-0" class={"carousel-image " + classList[0]}>
+                <source src={Video1} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video muted autoplay loop id="carousel-image-1" class={"carousel-image " + classList[1]}>
+                <source src={Video2} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video muted autoplay loop  id="carousel-image-2" class={"carousel-image " + classList[2]}>
+                <source src={Video3} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video muted autoplay loop  id="carousel-image-3" class={"carousel-image " + classList[3]}>
+                <source src={Video4} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video muted autoplay loop  id="carousel-image-4" class={"carousel-image " + classList[4]}>
+                <source src={Video5} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video muted autoplay loop  id="carousel-image-5" class={"carousel-image " + classList[5]}>
+                <source src={Video6} type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     
     </div>
     
-    <!--<div class="row">
-        <div class="col-6 text-end">
-            <button class="btn btn-primary" on:click={prev}>Prev</button>
-        </div>
-        <div class="col-6">
-            <button class="btn btn-danger" on:click={advance}>
-                Next
+    <div class="row">
+        <div class="col-6 d-flex flex-column align-items-end">
+            <button class="btn" on:click={prev}>
+                ◀
             </button>
         </div>
-    </div>-->
+        <div class="col-6">
+            <button class="btn" on:click={advance}>
+                ▶
+            </button>
+        </div>
+    </div>
 </div>
 
 <style>
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: var(--ele-blue);
+        border: 1px solid transparent;
+        font-size: 30px;
+        height: 50px;
+        width: 50px;
+        color: white;
+
+        transition-duration: .2s;
+    }
+
+    .btn:hover{
+        background-color: var(--ele-red);
+        color: white;
+    }
     .carousel-container{
         height: 300px;
         position: relative;
