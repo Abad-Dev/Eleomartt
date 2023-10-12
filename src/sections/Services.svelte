@@ -42,8 +42,6 @@
             </div>        
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             
@@ -64,8 +62,6 @@
             </div>       
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
@@ -86,8 +82,6 @@
             </div>        
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             
@@ -108,8 +102,6 @@
             </div>    
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">
@@ -129,8 +121,6 @@
             </div>        
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             
@@ -151,8 +141,6 @@
             </div>    
         </div>
 
-        <hr class="red">
-        <hr class="blue">
         
         <div class="row service">
             <div class="d-none d-lg-flex col-4 align-items-center p-4">

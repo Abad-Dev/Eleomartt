@@ -2,7 +2,7 @@
 <div class="container" id="contact">
     <h1 class="red word-1 text-center mb-4 title">Contáctenos</h1>
 
-    <div class="row">
+    <div class="row mw-100 px-2">
         <div class="col-12 col-lg-4">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Nombre:</label>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-12 mt-3 d-flex">
-            <h3 class="red mb-0"> O contáctanos a través de nuestras Redes Sociales:</h3>
+            <h4 class="red mb-0"> O contáctanos a través de nuestras Redes Sociales:</h4>
             <div class="social-media">
                 <a href="https://www.youtube.com/channel/UCnyCs_DgCcPrjRRcLB9KX0A" target="_blank">
                     <img src="/src/assets/YT.png" alt="">
@@ -58,6 +58,9 @@
 
 
 <style>
+    .mw-100{
+        max-width: 100vw;
+    }
 
     .social-media{
         display: flex;
