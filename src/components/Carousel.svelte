@@ -1,16 +1,11 @@
 <script>
     let animForward  = ['mv0to5', 'mv1to0', 'mv2to1', 'mv3to2', 'mv4to3', 'mv5to4'];
     let animBackward = ['mv0to1', 'mv1to2', 'mv2to3', 'mv3to4', 'mv4to5', 'mv5to0'];
-    let class0 = animForward[0];
-    let class1 = animForward[1];
-    let class2 = animForward[2];
-    let class3 = animForward[3];
-    let class4 = animForward[4];
-    let class5 = animForward[5];
 
-    let classList = [class0, class1, class2, class3, class4, class5];
+    let classList = JSON.parse(JSON.stringify(animForward));
     
     let currentImage = 3;
+    let counterCurrentImage = 3;
 
     function reset() {
         // Remove animations
@@ -27,14 +22,50 @@
 
 
     function next(){
+        
+        classList = classList.map((elClassName, index) => {
+            return animForward[(counterCurrentImage+2+index)%6]
+        })
 
+        if (counterCurrentImage <= 0){
+            counterCurrentImage = 5;
+        } else{
+            counterCurrentImage -= 1;
+        }
+        if (currentImage >= 5){
+            currentImage = 0;
+        } else{
+            currentImage += 1;
+        }
+    }
+
+    function previous(){
+        classList = classList.map((elClassName, index) => {
+            return animBackward[(counterCurrentImage+2+index)%6]
+        })
+
+        if (counterCurrentImage >= 5){
+            counterCurrentImage = 0;
+        } else{
+            counterCurrentImage += 1;
+        }
+
+        if (currentImage <= 0){
+            currentImage = 5;
+        } else{
+            currentImage -= 1;
+        }
     }
 
     function advance(){
         next();
+
+        console.log(currentImage)
     }
     function prev(){
-    //    previous();		
+        previous();		
+
+        console.log(currentImage)
     }
 </script>
 
@@ -42,12 +73,12 @@
 <div class="container-fluid">
     <div class="carousel-container">
         <div id="carousel">
-            <img src="https://lucidar.me/fr/web-dev/files/img0.svg" id="carousel-image-0" class={"carousel-image " + class0}>
-            <img src="https://lucidar.me/fr/web-dev/files/img1.svg" id="carousel-image-1" class={"carousel-image " + class1}>
-            <img src="https://lucidar.me/fr/web-dev/files/img2.svg" id="carousel-image-2" class={"carousel-image " + class2}>
-            <img src="https://lucidar.me/fr/web-dev/files/img3.svg" id="carousel-image-3" class={"carousel-image " + class3}>
-            <img src="https://lucidar.me/fr/web-dev/files/img4.svg" id="carousel-image-4" class={"carousel-image " + class4}>
-            <img src="https://lucidar.me/fr/web-dev/files/img5.svg" id="carousel-image-5" class={"carousel-image " + class5}>
+            <img src="https://lucidar.me/fr/web-dev/files/img0.svg" id="carousel-image-0" class={"carousel-image " + classList[0]}>
+            <img src="https://lucidar.me/fr/web-dev/files/img1.svg" id="carousel-image-1" class={"carousel-image " + classList[1]}>
+            <img src="https://lucidar.me/fr/web-dev/files/img2.svg" id="carousel-image-2" class={"carousel-image " + classList[2]}>
+            <img src="https://lucidar.me/fr/web-dev/files/img3.svg" id="carousel-image-3" class={"carousel-image " + classList[3]}>
+            <img src="https://lucidar.me/fr/web-dev/files/img4.svg" id="carousel-image-4" class={"carousel-image " + classList[4]}>
+            <img src="https://lucidar.me/fr/web-dev/files/img5.svg" id="carousel-image-5" class={"carousel-image " + classList[5]}>
         </div>
     
     </div>
