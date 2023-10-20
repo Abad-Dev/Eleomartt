@@ -20,26 +20,30 @@
 </div>
 
 <style>
+    #about{
+        padding-top: 88px;
+        margin-top: -88px;
+    }
     p{
         font-size: 18px;
+        padding: 0 15px;
     }
     img{
         position: absolute;
-        right: 100px;
-        bottom: 00px;
+        right: 0px;
+        bottom: 0px;
         width: auto;
         height: 100%;
         z-index: -1;
-
-
     }
     .img-container{
         position: relative;
+        max-width: 100vw;
     }
     .text-overlay{
         padding-top: 50px;
         padding-bottom: 30px;
-        padding-left: 100px;
+        padding-left: 0px;
         padding-right: 0px;
         display: flex;
         flex-direction: column;
@@ -81,7 +85,7 @@
         .text-overlay{
             background-image: url("../assets/about-light.jpg");
             background-size: cover;
-
+            background-position: center center;
             text-align: center;
             padding: 100px 15px;
         }
