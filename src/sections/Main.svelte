@@ -10,14 +10,14 @@
             Your browser does not support the video tag.
         </video>
         <div class="col-12 text-overlay ">
-            <div class="container d-flex flex-column gap-5">
+            <div class="container d-flex flex-column gap-4">
                 <h1 class="main-title w-100">
                     La <span class="red fw-bold">Fuerza</span> que 
                     <br />
                     <span class="red fw-bold">Mueve</span> tu negocio
                 </h1>
     
-                <span class="text-white d-block fs-5 fw-light">Optimiza tu operación logística con equipos especializados en renta.</span>
+                <span class="text-white d-block fs-4 fw-light mb-3">Optimiza tu operación logística con equipos especializados en renta.</span>
                 
                 <div>
                     <button class="btn-primary">Cotiza Ahora ⮕</button>
@@ -61,7 +61,7 @@
 
     .main-title{
         font-size: 70px; 
-        font-weight: 700;
+        font-weight: 500;
     }
 
     @media screen and (max-width: 768px) {

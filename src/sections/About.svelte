@@ -1,100 +1,47 @@
 <script>
-    import About from "../assets/about.jpg";
+    import About from '../assets/images/about.jpg'
 </script>
 
-<div class="container-fluid" id="about">
+<div class="container-fluid my-5" id="about">
     <div class="row img-container">
-        <div class="col-7 text-overlay">
-            <h1 class="blue word-1">Sobre</h1>
-            <h1 class="ps-4 red word-2">Nosotros</h1>
-            <p class="mb-5">
-                Somos una productora audiovisual dedicada a crear contenido único, cautivador y de alta calidad. Permítanme contarles un poco más sobre quiénes somos y qué hacemos.
-                Nuestro principal objetivo es transformar ideas en imágenes en movimiento.
-                Contamos con un equipo de profesionales apasionados por contar historias a través del poder de la imagen y el sonido.
+        <div class="col-12 col-lg-7 p-3 text-overlay">
+            <h1 class="blue word-1">Qui&eacute;nes</h1>
+            <h1 class="ps-4 red word-2">Somos</h1>
+            <p>
+                <span class="fs-4 d-block my-3">
+                    <i>"<strong class="red">Especialistas</strong> en soluciones logísticas"</i>
+                </span>
+                JECAUD RENTING es la unidad de negocio de <strong class="red">JECAUD SERVIS</strong>, con más de 16 años de experiencia en el rubro de maquinaria y logística.
+                Ofrecemos a las empresas la posibilidad de acceder a equipos logísticos modernos a través de la renta <strong class="red">flexible, confiable y respaldada por mantenimiento especializado.</strong>
             </p>
-            <h3>Luis A. Martínez Torres</h3>
-            <small>PRODUCTOR GENERAL</small>
         </div>
-        <img src={About} alt="..." class="d-none d-sm-block"/>
+        <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center p-5 md-p-0">
+            <img src={About} alt="..." />
+        </div>
     </div>
 </div>
 
 <style>
-    #about{
-        padding-top: 88px;
-        margin-top: -88px;
-    }
     p{
         font-size: 18px;
         padding: 0 15px;
     }
     img{
-        position: absolute;
-        right: 0px;
-        bottom: 0px;
-        width: auto;
-        height: 100%;
-        z-index: -1;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 1px 1px 11px 0px var(--ele-red);
     }
     .img-container{
         position: relative;
         max-width: 100vw;
     }
     .text-overlay{
-        padding-top: 50px;
-        padding-bottom: 30px;
-        padding-left: 0px;
-        padding-right: 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-size: cover;
         z-index: 1;
-    }
-
-    @media screen and (max-width: 1400px) {
-        img{
-            right: 0px;
-            bottom: 15px;
-        }
-    }
-    @media screen and (max-width: 1200px) {
-        p{
-            font-size: 16px;
-        }
-        img{
-            right: 0px;
-            bottom: 20px;
-        }
-        .text-overlay{
-            padding-left: 0px;
-        }
-    }
-    @media screen and (max-width: 991px) {
-        .text-overlay{
-            padding: 30px;
-        }
-        img{
-            height: 70%;
-            top: 50%;
-            transform: translate(0, -50%);
-        }
-    }
-
-    @media screen and (max-width: 768px) {
-        .text-overlay{
-            background-image: url("../assets/about-light.jpg");
-            background-size: cover;
-            background-position: center center;
-            text-align: center;
-            padding: 100px 15px;
-        }
-        img{
-            display: none !important;
-        }
-        .text-overlay{
-            flex-basis: 100%;
-        }
     }
 </style>
 

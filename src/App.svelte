@@ -3,8 +3,6 @@
 
   import Main from "./sections/Main.svelte";
   import About from "./sections/About.svelte";
-  import Works from "./sections/Works.svelte";
-  import Services from "./sections/Services.svelte";
   import Clients from "./sections/Clients.svelte";
   import Contact from "./sections/Contact.svelte";
 
@@ -19,8 +17,7 @@
 </main>
 <div class="container" >
   <About />
-  <Works />
-  <Services />
+  <hr />
   <Clients />
   <Contact />
 </div>
