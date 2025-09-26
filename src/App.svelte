@@ -8,6 +8,7 @@
 
   import Footer from "./components/Footer.svelte";
   import WhatsApp from "./components/WhatsApp.svelte";
+  import Equipment from "./sections/Equipment.svelte";
 </script>
 
 
@@ -15,10 +16,12 @@
 <main>
   <Main />
 </main>
-<div class="container" >
+<div class="container d-flex flex-column gap-5 pt-5" >
   <About />
   <hr />
-  <Clients />
+  <Equipment />
+  <hr />
+  <!-- <Clients /> -->
   <Contact />
 </div>
 <Footer />

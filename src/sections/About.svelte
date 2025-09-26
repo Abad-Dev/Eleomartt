@@ -2,7 +2,7 @@
     import About from '../assets/images/about.jpg'
 </script>
 
-<div class="container-fluid my-5" id="about">
+<div class="container-fluid" id="about">
     <div class="row img-container">
         <div class="col-12 col-lg-7 p-3 text-overlay">
             <h1 class="blue word-1">Qui&eacute;nes</h1>

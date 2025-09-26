@@ -8,13 +8,9 @@
   background-color: #f5863480;
 }
 
-p {
+p, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
-}
-
-body{
-  min-height: 5000px;
 }
 
 [id] {
@@ -46,10 +42,10 @@ body{
 
 *{
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
 }
 p{
   font-size: 16px;
+  font-weight: 600;
 }
 
 .uld{
@@ -98,6 +94,7 @@ p{
   transition-duration: .4s;
   outline-offset: 4px;
   font-size: 18px;
+  font-weight: 600;
 }
 
 
