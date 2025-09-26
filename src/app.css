@@ -1,6 +1,6 @@
 :root{
-  --ele-red: #f82c34;
-  --ele-blue:  #0470a4
+  --ele-red: #f58634;
+  --ele-blue:  #373435;
 }
 
 body{
@@ -82,3 +82,21 @@ p{
 }
 
 
+.btn-primary {
+  background-color: var(--ele-red);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  transition-duration: .4s;
+  outline-offset: 4px;
+  font-size: 18px;
+}
+
+
+.btn-primary:hover {
+  outline: 1px solid;
+  outline-color: var(--ele-red);
+  color: var(--ele-blue);
+  transform: scaleY(-10px);
+}

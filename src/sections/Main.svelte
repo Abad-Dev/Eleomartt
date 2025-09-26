@@ -1,6 +1,5 @@
 <script>
-    import Main from "../assets/main.mp4";
-    import MainOff from "../assets/main.ogg";
+    import Main from "../assets/videos/main.mp4";
 </script>
 
 <!-- svelte-ignore a11y-media-has-caption -->
@@ -8,11 +7,22 @@
     <div class="row hero">
         <video muted autoplay loop>
             <source src={Main} type="video/mp4">
-            <source src={MainOff} type="video/ogg">
             Your browser does not support the video tag.
         </video>
-        <div class="col-12 text-overlay">
-            <h1 class="main-title">Producción Audiovisual <br> de <span class="red">Alta</span> Calidad</h1>
+        <div class="col-12 text-overlay ">
+            <div class="container d-flex flex-column gap-5">
+                <h1 class="main-title w-100">
+                    La <span class="red fw-bold">Fuerza</span> que 
+                    <br />
+                    <span class="red fw-bold">Mueve</span> tu negocio
+                </h1>
+    
+                <span class="text-white d-block fs-5 fw-light">Optimiza tu operación logística con equipos especializados en renta.</span>
+                
+                <div>
+                    <button class="btn-primary">Cotiza Ahora ⮕</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
