@@ -1,5 +1,5 @@
 <script>
-    import Logo from "../assets/images/logo_jecaud.png";
+    import Logo from "../assets/images/logos/main-logo.png";
 </script>
 
 
