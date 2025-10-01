@@ -14,7 +14,7 @@
 
 
 <NavBar />
-<main>
+<main id="inicio">
   <Main />
 </main>
 <div class="container d-flex flex-column gap-5 pt-5" >
