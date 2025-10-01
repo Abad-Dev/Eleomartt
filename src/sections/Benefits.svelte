@@ -31,7 +31,7 @@
 </script>
 
 <div class="container-fluid" id="beneficios">
-  <h1 class="blue word-1">Beneficios de alquilar con </h1>
+  <h1 class="blue word-1" style="line-height: 30px;">Beneficios de alquilar con </h1>
   <h1 class="ps-4 red word-2">JECAUD RENTING</h1>
 
   <div class="benefits-container gap-5">
