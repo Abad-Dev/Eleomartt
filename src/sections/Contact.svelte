@@ -6,7 +6,7 @@
         <img src={Operador} alt="..." class="w-100" style="height: 270px; object-fit: cover; border-radius: 10px;">
         
         <div class="text-overlay" style=" border-radius: 10px;">
-            <h5 class="text-white mb-5"><i>¿Listo para optimizar tu almacén?</i></h5>
+            <h5 class="text-white mb-5 text-center"><i>¿Listo para optimizar tu almacén?</i></h5>
             <h1 class="text-white word-1 text-center">Solicita tu</h1>
             <h1 class="red word-2 text-center">Cotización</h1>
         </div>
