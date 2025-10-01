@@ -1,7 +1,7 @@
 
 
 <div class="container-fluid mt-5" id="footer">
-    Desarrollado por Guiacalidad ©
+    Desarrollado por &nbsp; <a style="color: black;" href="https://www.guiacalidad.com.pe/catalogo-web" target="_blank"> Guiacalidad ©</a>
 </div>
 
 

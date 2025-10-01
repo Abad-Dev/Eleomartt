@@ -1,8 +1,8 @@
 <script>
     import Operador from "../assets/images/operador.jpg"
 </script>
-<div class="container" id="contactenos">
-    <div class="position-relative  mb-5">
+<div class="container">
+    <div class="position-relative  mb-5"  id="contactenos">
         <img src={Operador} alt="..." class="w-100" style="height: 270px; object-fit: cover; border-radius: 10px;">
         
         <div class="text-overlay" style=" border-radius: 10px;">
@@ -12,31 +12,31 @@
         </div>
     </div>
     <!-- <h1 class="red word-1 text-center mb-4 title">Contáctenos</h1> -->
-
+    <form action="https://formsubmit.co/chuamani@jacaudservice.com" method="POST">
     <div class="row">
         <div class="col-12 col-lg-4">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Nombre:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="nombre">Nombre:</label>
+                <input type="email" class="form-control" id="nombre" name="nombre" placeholder="nombre@ejemplo.com">
               </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Teléfono:</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1">
+                <label for="telefono">Teléfono:</label>
+                <input type="number" class="form-control" name="telefono" id="telefono">
             </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Asunto:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+                <label for="asunto">Asunto:</label>
+                <input type="text" class="form-control" name="asunto" id="asunto">
               </div>
         </div>
 
         <div class="col-12 mt-3">
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Mensaje:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
               </div>
         </div>
 
@@ -47,6 +47,7 @@
             </button>
         </div>
     </div>
+    </form>
 </div>
 
 
