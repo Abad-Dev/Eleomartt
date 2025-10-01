@@ -3,7 +3,7 @@
 </script>
 
 <div class="wsp">
-    <a href="https://wa.me/51940294166" target="_blank">
+    <a href="https://wa.me/+51997507996" target="_blank">
         <img src={WspBtn} alt="">
     </a>
 </div>
