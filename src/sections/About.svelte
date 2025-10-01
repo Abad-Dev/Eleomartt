@@ -4,7 +4,7 @@
 
 <div class="container-fluid" id="about">
     <div class="row img-container">
-        <div class="col-12 col-lg-7 p-3 text-overlay">
+        <div class="col-12 col-lg-6 p-3 text-overlay">
             <h1 class="blue word-1">Qui&eacute;nes</h1>
             <h1 class="ps-4 red word-2">Somos</h1>
             <p>
@@ -15,7 +15,7 @@
                 Ofrecemos a las empresas la posibilidad de acceder a equipos logísticos modernos a través de la renta <strong class="red">flexible, confiable y respaldada por mantenimiento especializado.</strong>
             </p>
         </div>
-        <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center p-5 md-p-0">
+        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center p-5 md-p-0">
             <img src={About} alt="..." />
         </div>
     </div>

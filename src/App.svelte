@@ -3,12 +3,12 @@
 
   import Main from "./sections/Main.svelte";
   import About from "./sections/About.svelte";
-  import Clients from "./sections/Clients.svelte";
   import Contact from "./sections/Contact.svelte";
 
   import Footer from "./components/Footer.svelte";
   import WhatsApp from "./components/WhatsApp.svelte";
   import Equipment from "./sections/Equipment.svelte";
+  import Benefits from "./sections/Benefits.svelte";
 </script>
 
 
@@ -20,6 +20,8 @@
   <About />
   <hr />
   <Equipment />
+  <hr />
+  <Benefits />
   <hr />
   <!-- <Clients /> -->
   <Contact />

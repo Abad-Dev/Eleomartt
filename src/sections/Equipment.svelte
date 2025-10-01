@@ -56,8 +56,8 @@
       />
     {/each}
 
-    <div class="w-100 d-flex justify-content-center">
+    <!-- <div class="w-100 d-flex justify-content-center">
       <button class="btn-primary">Ver Catálogo Completo</button>
-    </div>
+    </div> -->
   </div>
 </div>
