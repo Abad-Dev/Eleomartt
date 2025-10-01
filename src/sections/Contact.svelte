@@ -1,8 +1,19 @@
+<script>
+    import Operador from "../assets/images/operador.jpg"
+</script>
+<div class="container" id="contactenos">
+    <div class="position-relative  mb-5">
+        <img src={Operador} alt="..." class="w-100" style="height: 270px; object-fit: cover; border-radius: 10px;">
+        
+        <div class="text-overlay" style=" border-radius: 10px;">
+            <h5 class="text-white mb-5"><i>¿Listo para optimizar tu almacén?</i></h5>
+            <h1 class="text-white word-1 text-center">Solicita tu</h1>
+            <h1 class="red word-2 text-center">Cotización</h1>
+        </div>
+    </div>
+    <!-- <h1 class="red word-1 text-center mb-4 title">Contáctenos</h1> -->
 
-<div class="container" id="contact">
-    <h1 class="red word-1 text-center mb-4 title">Contáctenos</h1>
-
-    <div class="row mw-100 px-2">
+    <div class="row">
         <div class="col-12 col-lg-4">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Nombre:</label>
@@ -29,54 +40,29 @@
               </div>
         </div>
 
-        <div class="col-12 mt-3 d-flex">
-            <h4 class="red mb-0"> O contáctanos a través de nuestras Redes Sociales:</h4>
-            <div class="social-media">
-                <a href="https://www.youtube.com/channel/UCnyCs_DgCcPrjRRcLB9KX0A" target="_blank">
-                    <img src="/src/assets/YT.png" alt="">
-                </a>
-                <a href="https://wa.me/51940294166" target="_blank">
-                    <img src="/src/assets/Wsp.png" alt="">
-                </a>
-                <!--<a href="https://www.instagram.com/eleomartt/" target="_blank">
-                    <img src="/src/assets/Ig.png" alt="">
-                </a>-->
-                <!--<a>
-                    <img src="/src/assets/TikTok.png" alt="">
-                </a>-->
-                <a href="https://www.facebook.com/Eleomartt" target="_blank">
-                    <img src="/src/assets/Facebook.png" alt="">
-                </a>
-            </div>
-        </div>
-
         <div class="col-12 d-flex justify-content-center mt-3">
-            <button class="btn-primary">Enviar</button>
+            <button class="btn-primary">
+                Enviar
+                <i class="bi bi-send-fill"></i>
+            </button>
         </div>
     </div>
 </div>
 
 
 <style>
-    .mw-100{
-        max-width: 100vw;
-    }
+    .text-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
 
-    .social-media{
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+
         display: flex;
+        flex-direction: column;
         align-items: center;
-    }
-    .social-media img{
-        margin: 5px 10px 10px 10px;
-        width: 25px;
-        height: 25px;
-    }
-    #contact{
-        padding: 100px 0;
-    }
-
-    .title{
-        font-weight: bold;
-        text-shadow: 2px 2px 0px var(--ele-blue);
+        justify-content: center;
     }
 </style>

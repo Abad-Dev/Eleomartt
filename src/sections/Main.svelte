@@ -19,8 +19,13 @@
     
                 <span class="text-white d-block fs-4 fw-light mb-3">Optimiza tu operación logística con equipos especializados en renta.</span>
                 
-                <div>
-                    <button class="btn-primary">Solicita tu Cotización Ahora ⮕</button>
+                <div class="d-flex justify-content-center">
+                    <a href="#contactenos">
+                        <button class="btn-primary">
+                            Solicita tu Cotización Ahora 
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
