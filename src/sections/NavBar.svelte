@@ -58,7 +58,7 @@
 
 <style>
     nav{
-        position: fixed;
+        position: fixed !important;
         min-width: 100%;
         padding: 10px;
         background-color: white !important;
