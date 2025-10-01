@@ -9,6 +9,7 @@
   import WhatsApp from "./components/WhatsApp.svelte";
   import Equipment from "./sections/Equipment.svelte";
   import Benefits from "./sections/Benefits.svelte";
+  import Sectors from "./sections/Sectors.svelte";
 </script>
 
 
@@ -23,7 +24,8 @@
   <hr />
   <Benefits />
   <hr />
-  <!-- <Clients /> -->
+  <Sectors />
+  <hr />
   <Contact />
 </div>
 <Footer />

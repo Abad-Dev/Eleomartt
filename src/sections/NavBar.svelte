@@ -29,6 +29,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#equipos">Nuestro Equipo</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#beneficios">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sectores">Sectores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactenos">Contáctenos</a>
+                </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#works">Trabajos</a>
                 </li>

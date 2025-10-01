@@ -20,7 +20,7 @@
                 <span class="text-white d-block fs-4 fw-light mb-3">Optimiza tu operación logística con equipos especializados en renta.</span>
                 
                 <div>
-                    <button class="btn-primary">Cotiza Ahora ⮕</button>
+                    <button class="btn-primary">Solicita tu Cotización Ahora ⮕</button>
                 </div>
             </div>
         </div>
