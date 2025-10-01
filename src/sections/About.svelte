@@ -1,5 +1,5 @@
 <script>
-    import About from '../assets/images/about.jpg'
+    import About from '../assets/images/quienes-somos.jpg'
 </script>
 
 <div class="container-fluid" id="about">

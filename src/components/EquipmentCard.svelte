@@ -33,6 +33,8 @@
   } 
 
   .img-container {
+    display: flex;
+    align-items: center;
     height: 300px;
     width: 100%;
     overflow: hidden;
@@ -43,7 +45,7 @@
     width: 100%;
     height: auto;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
   }
 

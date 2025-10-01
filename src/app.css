@@ -89,9 +89,9 @@ p{
   background-color: var(--ele-red);
   color: white;
   padding: 15px 25px;
-  border-radius: 10px;
-  border: none;
-  transition-duration: .4s;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition-duration: .5s;
   outline-offset: 4px;
   font-size: 18px;
   font-weight: 600;
@@ -99,8 +99,8 @@ p{
 
 
 .btn-primary:hover {
-  outline: 1px solid;
-  outline-color: var(--ele-red);
-  color: var(--ele-blue);
+  background-color: white;
+  color: var(--ele-red);
+  border: 2px solid;
   transform: scaleY(-10px);
 }

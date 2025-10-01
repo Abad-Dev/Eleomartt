@@ -79,9 +79,4 @@
         font-weight: bold;
         text-shadow: 2px 2px 0px var(--ele-blue);
     }
-
-    .btn-ele{
-        background-color: var(--ele-blue);
-        color: white;
-    }
 </style>
