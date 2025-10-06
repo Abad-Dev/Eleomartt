@@ -118,5 +118,7 @@
     display: grid;
     place-items: center;
     font-size: 40px;
+
+    margin-bottom: 5px;
   }
 </style>
