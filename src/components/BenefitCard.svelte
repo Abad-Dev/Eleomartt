@@ -57,7 +57,7 @@
     content: '';
     width: 23px;
     height: 23px;
-    background-color: var(--ele-blue);
+    background-color: #1AA7E0;
     border-radius: 50%;
     position: absolute;
     top: 18px;

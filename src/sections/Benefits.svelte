@@ -3,36 +3,42 @@
 
   let benefits = [
   {
-    icon: "arrow-down-up",
-    title: "Flexibilidad en planes de renta",
-    descripcion: "Elige entre diferentes opciones que se adaptan a las necesidades y presupuesto de tu empresa."
+    icon: "bar-chart",
+    title: "+80% productividad",
+    descripcion: "Aumenta la eficiencia operativa de tu empresa gracias a herramientas optimizadas y procesos automatizados."
   },
   {
-    icon: "wrench",
-    title: "Respaldo técnico y mantenimiento garantizado",
-    descripcion: "Nuestro equipo especializado asegura el funcionamiento continuo de tus equipos con soporte confiable."
+    icon: "shield-check",
+    title: "Reducción significativa de errores",
+    descripcion: "Minimiza fallas humanas y operativas mediante controles automatizados y flujos de trabajo inteligentes."
   },
   {
-    icon: "truck",
-    title: "Disponibilidad inmediata de equipos",
-    descripcion: "Accede a la tecnología que necesitas sin esperas, con entrega lista para usarse de inmediato."
+    icon: "clock",
+    title: "Optimización de espacio y tiempos",
+    descripcion: "Aprovecha mejor tus recursos físicos y temporales con soluciones diseñadas para máxima eficiencia."
   },
   {
-    icon: "piggy-bank",
-    title: "Ahorro en inversión inicial",
-    descripcion: "Reduce costos al evitar grandes desembolsos, pagando solo por lo que realmente utilizas."
+    icon: "eye",
+    title: "Visibilidad en tiempo real",
+    descripcion: "Monitorea y analiza cada proceso al instante para una toma de decisiones más ágil y precisa."
   },
   {
-    icon: "trophy",
-    title: "Experiencia de más de 16 años",
-    descripcion: "Más de una década y media brindando soluciones efectivas respaldan nuestra trayectoria y confianza."
+    icon: "layers",
+    title: "Escalabilidad y flexibilidad",
+    descripcion: "Adapta el sistema al crecimiento de tu negocio sin perder rendimiento ni estabilidad."
+  },
+  {
+    icon: "person-raised-hand",
+    title: "Soporte local en Perú",
+    descripcion: "Contamos con asistencia técnica y atención personalizada dentro del país, siempre cerca de ti."
   }
 ]
+
 </script>
 
 <div class="container-fluid" id="beneficios">
-  <h1 class="blue word-1" style="line-height: 30px;">Beneficios de alquilar con </h1>
-  <h1 class="ps-4 red word-2">JECAUD RENTING</h1>
+  <h1 class="blue word-1" style="line-height: 30px;">Beneficios de <strong style="color: #1AA7E0;">MUvum</strong></h1>
+  <h1 class="ps-4 word-2">con <strong class="red">JECAUD SERVIS</strong></h1>
 
   <div class="benefits-container gap-5">
     {#each benefits as benefit}
