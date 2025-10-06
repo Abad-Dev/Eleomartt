@@ -1,7 +1,23 @@
 <script>
+    import { onMount } from "svelte";
     import Logo from "../components/Logo.svelte";
     import ShortLogo from "../components/ShortLogo.svelte";
 
+    import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+    let collapse;
+
+    onMount(() => {
+        // Inicializa el colapso de Bootstrap usando su API nativa
+        const bsCollapse = new bootstrap.Collapse(collapse, { toggle: false });
+
+        // Cierra el navbar al hacer clic en cualquier enlace
+        document.querySelectorAll(".nav-link").forEach(link => {
+            link.addEventListener("click", () => {
+                bsCollapse.hide();
+            });
+        });
+    });
 </script>
 
 
@@ -18,8 +34,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" bind:this={collapse}>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 mt-3 mt-lg-0">
                 <li class="nav-item ">
                     <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
