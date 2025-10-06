@@ -1,33 +1,54 @@
 <script>
+  import Alimentos from "../assets/images/sectores/alimentos.png";
+  import Automotriz from "../assets/images/sectores/AUTOMOTRIZ.png";
+  import Construccion from "../assets/images/sectores/CONSTRUCCION.png";
+  import Ecommerce from "../assets/images/sectores/ecommerce.png";
+  import Retail from "../assets/images/sectores/retail.png";
+  import Textil from "../assets/images/sectores/textil.png";
+  import Farmaceutico from "../assets/images/sectores/FARMACEUTICO.png";
+
   let sectors = [
-    {
-      icon: "box-seam",
-      title: "Centros de distribución",
-      descripcion: "Optimiza tus operaciones y mantén el flujo constante de tus productos."
-    },
-    {
-      icon: "building-gear",
-      title: "Fábricas e industrias",
-      descripcion: "Apoya la productividad con equipos confiables en cada etapa de tu producción."
-    },
-    {
-      icon: "shop",
-      title: "Retail y supermercados",
-      descripcion: "Facilita la gestión de inventario y garantiza la atención ágil a tus clientes."
-    },
-    {
-      icon: "truck",
-      title: "Operadores logísticos",
-      descripcion: "Mejora la cadena de suministro con soluciones listas para cualquier desafío."
-    },
-  ]
+  {
+    img: Ecommerce,
+    title: "E-commerce",
+    descripcion: "Agiliza la gestión de pedidos, inventario y envíos para mejorar la experiencia de tus clientes en línea."
+  },
+  {
+    img: Retail,
+    title: "Retail y supermercados",
+    descripcion: "Optimiza la reposición y control de productos, garantizando eficiencia en el punto de venta."
+  },
+  {
+    img: Textil,
+    title: "Textil y moda",
+    descripcion: "Gestiona tu producción y stock de forma inteligente, adaptándote rápidamente a las tendencias del mercado."
+  },
+  {
+    img: Alimentos,
+    title: "Alimentos y bebidas",
+    descripcion: "Asegura la trazabilidad, control de calidad y cumplimiento de normativas en cada etapa de la cadena."
+  },
+  {
+    img: Farmaceutico,
+    title: "Farmacéutico",
+    descripcion: "Mantén el control total sobre tus productos sensibles con soluciones seguras y confiables."
+  },
+  {
+    img: Automotriz,
+    title: "Automotriz",
+    descripcion: "Optimiza la gestión de partes, ensambles y logística con tecnología de alto rendimiento."
+  },
+  {
+    img: Construccion,
+    title: "Construcción",
+    descripcion: "Coordina maquinaria, materiales y personal para garantizar proyectos eficientes y bien gestionados."
+  }
+]
 </script>
 
 <div class="container-fluid" id="sectores">
   <h1 class="blue word-1 text-center">Sectores</h1>
-  <h1 class="red word-2 text-center">Que Atendemos</h1>
-
-  <h4 class="text-center text-uppercase mt-4"><i>"<strong class="red">Soluciones</strong> para tu industria</i>"</h4>
+  <h1 class="red word-2 text-center">Atendidos</h1>
 
   <div class="container-fluid d-flex justify-content-center align-items-center mt-5">
     <div class="sector-container">
@@ -35,7 +56,7 @@
       <div class="sector">
         <div class="icon-container">
           <div class="icon">
-            <i class={"bi bi-" + sector.icon}></i>
+            <img src={sector.img} alt="...">
           </div>
         </div>
 
@@ -55,36 +76,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 604px;
     padding: 0;
-    border: 2px solid #c5c5c5;
-    border-radius: 20px;
-    overflow: hidden;
+    gap: 45px;
   }
 
-  @media (min-width: 768px) {
-  .sector-container > div:nth-child(1) { border-width: 0 1px 1px 0; }
-  .sector-container > div:nth-child(2) { border-width: 0 0 1px 1px; }
-  .sector-container > div:nth-child(3) { border-width: 1px 1px 0 0; }
-  .sector-container > div:nth-child(4) { border-width: 1px 0 0 1px; }
-  }
-
-  @media (max-width: 768px) {
-    .sector-container > div { border-width: 0 0 1px 0;}
-    .sector-container > div:nth-child(4) { border-width:0; }
-  }
 
   .sector {
-    border-style: solid;
     border-color: inherit;
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     text-align: center;
     padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #32323286;
+    border-radius: 20px;
+    transition-duration: .4s;
+  }
+
+  .sector:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 25px 0px var(--ele-red);
   }
 
   .icon-container{
@@ -93,7 +108,7 @@
     justify-content: center;
   }
 
-  .icon {
+  .icon, .icon > img {
     width: 100px;
     height: 100px;
     color: var(--ele-red);
