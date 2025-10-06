@@ -1,30 +1,31 @@
 <script>
   export let imgSrc = "";
   export let title = "";
-  export let subTitle = "";
   export let descripcion = "";
+  export let url = "#";
 </script>
 
-<div class="card-container">
+<div class="card-container mx-2">
   <div class="img-container">
     <img src={imgSrc} alt="...">
   </div>
   <div class="text-container">
-    <small class="subtitle"><i>{subTitle}</i></small>
     <h4 class="red">{title}</h4>
-    <p class="text-secondary">{descripcion}</p>
+    <p class="text-secondary my-2">{descripcion}</p>
+
+    <a class="w-100 px-2" href={url} target="_blank">
+      <button class="btn-primary justify-content-center w-100">Conocer más</button>
+    </a>
   </div>
 </div>
 
 <style>
   .card-container{ 
     border-radius: 30px;
-    height: 550px;
     width: 330px;
     box-shadow: 1px 1px 11px 0px #323232;
     transition-duration: .4s;
     overflow: hidden;
-    border: 10px solid var(--ele-red);
   }
 
   .card-container:hover{
@@ -35,7 +36,7 @@
   .img-container {
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 215px;
     width: 100%;
     overflow: hidden;
     border-bottom: 1px solid gray;
@@ -47,6 +48,7 @@
     max-height: 100%;
     object-fit: contain;
     object-position: center;
+    background-color: lightgray;
   }
 
   .text-container {
@@ -55,13 +57,7 @@
     gap: 10px;
     width: 100%; 
     height: 100%;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-  }
-
-  .subtitle {
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: bolder !important;
   }
 </style>

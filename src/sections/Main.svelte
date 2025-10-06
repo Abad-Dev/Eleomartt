@@ -12,12 +12,13 @@
         <div class="col-12 text-overlay ">
             <div class="container d-flex flex-column gap-4">
                 <h1 class="main-title w-100">
-                    La <span class="red fw-bold">Fuerza</span> que 
-                    <br />
-                    <span class="red fw-bold">Mueve</span> tu negocio
+                    <span class="red fw-bold">Innovación</span> logística global, 
+                    <br /> ahora en Perú
                 </h1>
     
-                <span class="text-white d-block fs-4 fw-light mb-3">Optimiza tu operación logística con equipos especializados en renta.</span>
+                <span class="text-white d-block fs-4 fw-light mb-3">
+                    <span class="red fw-bold">JECAUD SERVIS</span> es el representante autorizado de <span style="color: #1AA7E0;" class="fw-bold">MUvum</span> en el país.
+                </span>
                 
                 <div class="d-flex justify-content-center">
                     <a href="#contactenos">

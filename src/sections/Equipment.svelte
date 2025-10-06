@@ -1,58 +1,78 @@
 <script>
   import EquipmentCard from "../components/EquipmentCard.svelte";
 
-  import Transpleta from "../assets/images/equipos/transpleta.jpg"
-  import Apilador from "../assets/images/equipos/apilador.jpg"
-  import Montacargas from "../assets/images/equipos/montacargas.jpg"
-  import Trilateral from "../assets/images/equipos/trilateral.jpg"
-  import Bateria from "../assets/images/equipos/baterias.jpg"
+  import Ptl from "../assets/images/soluciones/Recurso-5.webp"
+  import Wms from "../assets/images/soluciones/Recurso-6.webp"
+  import Ptw from "../assets/images/soluciones/Recurso-7.webp"
+  import CartPicking from "../assets/images/soluciones/Recurso-8.webp"
+  import Automatizacion from "../assets/images/soluciones/Recurso-10.webp"
+  import Guias from "../assets/images/soluciones/Recurso-11.webp"
+  import Consultoria from "../assets/images/soluciones/Recurso-100.webp"
 
   let equipos = [
     {
-      src: Transpleta,
-      title: "Transpaletas Eléctricas",
-      subTitle: "transporte interno, ágil y seguro",
-      descripcion: "Mueve pallets rápida y fácilmente, reduciendo esfuerzo y aumentando seguridad."
+      src: Ptl,
+      title: "PUT TO LIGHT - PTL",
+      descripcion: "Luz y pantallas que guían el picking y la clasificación. Precisión y velocidad en cada paso.",
+      url: "https://muvumcorp.com/services/muv-put-to-light-ptl/"
     },
     {
-      src: Apilador,
-      title: "Apiladores Eléctricos",
-      subTitle: "ideal para elevar pallets en espacios reducidos",
-      descripcion: "Eleva y coloca pallets con precisión en zonas estrechas, optimizando espacio."
+      src: Wms,
+      title: "WMS",
+      descripcion: "Sistema en la nube para gestionar tu almacén de principio a fin. Control total, menos errores y más eficiencia en tiempo real.",
+      url: "https://muvumcorp.com/services/muv-wms/"
     },
     {
-      src: Montacargas,
-      title: "Montacargas a Combustión Dual",
-      subTitle: "potencia y versatilidad",
-      descripcion: "Transporta cargas pesadas con fuerza y flexibilidad, en interiores o exteriores."
+      src: Ptw,
+      title: "PUT TO WALL e-commerce",
+      descripcion: "Clasificación semiautomatizada ideal para pedidos pequeños. Orden y eficiencia.",
+      url: "https://muvumcorp.com/services/muv-put-to-wall/"
     },
     {
-      src: Trilateral,
-      title: "Trilaterales",
-      subTitle: "máximo aprovechamiento de espacio en pasillos estrechos",
-      descripcion: "Maniobra en pasillos angostos, accediendo a pallets difíciles y ahorrando espacio."
+      src: CartPicking,
+      title: "Cart Picking",
+      descripcion: "Picking simultáneo con carros inteligentes y guiado por luz. Más rápido, menos errores.",
+      url: "https://muvumcorp.com/services/muv-cart-picking/"
     },
     {
-      src: Bateria,
-      title: "Baterías",
-      subTitle: "energía confiable para equipos eléctricos",
-      descripcion: "Proporciona energía constante y duradera para mantener tus equipos operativos."
-    }
+      src: Ptl,
+      title: "WCS Sorters",
+      descripcion: "Automatiza la distribución con sorters inteligentes. Menos costos, más control.",
+      url: "https://muvumcorp.com/services/muv-wcs-sorters/"
+    },
+    {
+      src: Automatizacion,
+      title: "Automatización",
+      descripcion: "Soluciones hechas a la medida para transformar tu logística con tecnología 4.0.",
+      url: "https://muvumcorp.com/services/muv-automatizacion/"
+    },
+    {
+      src: Guias,
+      title: "Guías",
+      descripcion: "Genera las guías automáticamente cuando el pedido está listo, sin intervención manual.",
+      url: "https://muvumcorp.com/services/guias/"
+    },
+    {
+      src: Consultoria,
+      title: "Consultoría",
+      descripcion: "Evaluamos tus operaciones logísticas para identificar oportunidades de mejora y diseñamos estrategias personalizadas.",
+      url: "https://muvumcorp.com/services/muv-consultoria-supply-chain/"
+    },
   ]
 </script>
-<div id="equipos">
-  <h1 class="blue word-1 text-center">Nuestros</h1>
-  <h1 class="red word-2 text-center">Equipos</h1>
-
-  <h4 class="text-center text-uppercase mt-4">Flota de equipos disponibles</h4>
+<div id="soluciones">
+  <h1 class="red word-1 text-center">Soluciones</h1>
+  <h1 class="blue word-2 text-center">Disponibles</h1>
+<!-- 
+  <h4 class="text-center text-uppercase mt-4">Flota de equipos disponibles</h4> -->
 
   <div class="d-flex flex-wrap gap-5 my-5 align-items-center justify-content-center">
     {#each equipos as equipo} 
       <EquipmentCard 
         imgSrc={equipo.src}
         title={equipo.title}
-        subTitle={equipo.subTitle}
         descripcion={equipo.descripcion}
+        url={equipo.url}
       />
     {/each}
 

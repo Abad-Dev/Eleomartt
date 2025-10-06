@@ -1,5 +1,10 @@
 <script>
     import About from '../assets/images/quienes-somos.jpg'
+
+    const verPDF = () => {
+        const url = "public/docs/PRESENTACION_CORPORATIVA_MUVUM_2025.pdf";
+        window.open(url, "_blank", "noopener,noreferrer");
+    };
 </script>
 
 <div class="container-fluid" id="about">
@@ -8,12 +13,19 @@
             <h1 class="blue word-1">Qui&eacute;nes</h1>
             <h1 class="ps-4 red word-2">Somos</h1>
             <p>
-                <span class="fs-4 d-block my-3">
+                <!-- <span class="fs-4 d-block my-3">
                     <i>"<strong class="red">Especialistas</strong> en soluciones logísticas"</i>
-                </span>
-                JECAUD RENTING es la unidad de negocio de <strong class="red">JECAUD SERVIS</strong>, con más de 16 años de experiencia en el rubro de maquinaria y logística.
-                Ofrecemos a las empresas la posibilidad de acceder a equipos logísticos modernos a través de la renta <strong class="red">flexible, confiable y respaldada por mantenimiento especializado.</strong>
+                </span> -->
+                <span style="color: #1AA7E0;" class="fw-bold">MUvum</span> es una marca global con más de 20 años de experiencia, dedicada a diseñar e integrar soluciones estratégicas para la cadena de abastecimiento.
+                <br /><br />
+                Con presencia en <strong class="red">+7 países de Latinoamérica</strong>, ha optimizado más de 80 centros de distribución y atiende a miles de tiendas cada día.
             </p>
+
+            <button class="btn-primary mt-3 text-align-center justify-content-center mx-3" on:click={verPDF}>
+                Ver Presentación Corporativa MUvum 2025
+
+                <i class="bi bi-arrow-right"></i>
+            </button>
         </div>
         <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center p-5 md-p-0">
             <img src={About} alt="..." />

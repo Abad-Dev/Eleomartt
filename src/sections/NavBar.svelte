@@ -40,10 +40,10 @@
                     <a class="nav-link" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Nosotros</a>
+                    <a class="nav-link" href="#about">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#equipos">Nuestro Equipo</a>
+                    <a class="nav-link" href="#soluciones">Soluciones Disponibles</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#beneficios">Beneficios</a>
