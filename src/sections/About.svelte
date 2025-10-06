@@ -2,7 +2,7 @@
     import About from '../assets/images/quienes-somos.jpg'
 
     const verPDF = () => {
-        const url = "public/docs/PRESENTACION_CORPORATIVA_MUVUM_2025.pdf";
+        const url = "docs/PRESENTACION_CORPORATIVA_MUVUM_2025.pdf";
         window.open(url, "_blank", "noopener,noreferrer");
     };
 </script>
