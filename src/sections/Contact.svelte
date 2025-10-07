@@ -8,7 +8,7 @@
         <div class="text-overlay" style=" border-radius: 10px;">
             <h5 class="text-white text-center"><i>Lleva tu operación logística al </i></h5>
             <h1 class="red word-1 my-3 text-center">siguiente nivel</h1>
-            <h3 class="text-white mt-2 text-center">con <strong style="color: #1AA7E0; background-color: #f5863450;">&nbsp;MUvum&nbsp;</strong> en Perú</h3>
+            <h3 class="text-white mt-2 text-center">con <strong style="color: #1AA7E0; background-color: #f5863450;">&nbsp;Muvum&nbsp;</strong> en Perú</h3>
         </div>
     </div>
     <!-- <h1 class="red word-1 text-center mb-4 title">Contáctenos</h1> -->
@@ -24,16 +24,16 @@
                 <li>
                     <i class="bi bi-telephone-fill"></i>
                     <strong class="red">Nro. de Celular: </strong>
-                    +51 997507996
+                    +51 989654193
                 </li>
                 <li>
                     <i class="bi bi-envelope-fill"></i>
                     <strong class="red">Correo Electrónico: </strong>
-                    chuamani@jecaudservis.com
+                    jalvaradot@jecaudservis.com
                 </li>
             </ul>
         </div>
-        <form class="col-12 col-md-6" action="https://formsubmit.co/chuamani@jacaudservice.com" method="POST">
+        <form class="col-12 col-md-6" action="https://formsubmit.co/jalvaradot@jecaudservis.com" method="POST">
         <div class="row">
             <div class="col-12 col-lg-4">
                 <div class="form-group">

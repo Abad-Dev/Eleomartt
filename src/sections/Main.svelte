@@ -17,7 +17,7 @@
                 </h1>
     
                 <span class="text-white d-block fs-4 fw-light mb-3">
-                    <span class="red fw-bold">JECAUD SERVIS</span> es el representante autorizado de <span style="color: #1AA7E0;" class="fw-bold">MUvum</span> en el país.
+                    <span class="red fw-bold">JECAUD SERVIS</span> es el representante autorizado de <span style="color: #1AA7E0;" class="fw-bold">Muvum</span> en el país.
                 </span>
                 
                 <div class="d-flex justify-content-center">

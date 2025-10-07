@@ -37,7 +37,7 @@
 </script>
 
 <div class="container-fluid" id="beneficios">
-  <h1 class="blue word-1" style="line-height: 30px;">Beneficios de <strong style="color: #1AA7E0;">MUvum</strong></h1>
+  <h1 class="blue word-1" style="line-height: 30px;">Beneficios de <strong style="color: #1AA7E0;">Muvum</strong></h1>
   <h1 class="ps-4 word-2">con <strong class="red">JECAUD SERVIS</strong></h1>
 
   <div class="benefits-container gap-5">

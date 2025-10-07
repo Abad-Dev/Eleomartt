@@ -16,13 +16,13 @@
                 <!-- <span class="fs-4 d-block my-3">
                     <i>"<strong class="red">Especialistas</strong> en soluciones logísticas"</i>
                 </span> -->
-                <span style="color: #1AA7E0;" class="fw-bold">MUvum</span> es una marca global con más de 20 años de experiencia, dedicada a diseñar e integrar soluciones estratégicas para la cadena de abastecimiento.
+                <span style="color: #1AA7E0;" class="fw-bold">Muvum</span> es una marca global con más de 20 años de experiencia, dedicada a diseñar e integrar soluciones estratégicas para la cadena de abastecimiento.
                 <br /><br />
                 Con presencia en <strong class="red">+7 países de Latinoamérica</strong>, ha optimizado más de 80 centros de distribución y atiende a miles de tiendas cada día.
             </p>
 
             <button class="btn-primary mt-3 text-align-center justify-content-center mx-3" on:click={verPDF}>
-                Ver Presentación Corporativa MUvum 2025
+                Ver Presentación Corporativa Muvum 2025
 
                 <i class="bi bi-arrow-right"></i>
             </button>
